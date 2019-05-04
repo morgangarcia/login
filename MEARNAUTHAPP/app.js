@@ -7,7 +7,7 @@ const passport = require('./passport');
 const cookieSession = require('cookie-session');
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8081;
 const log = console.log;
 const app = express();
 mongoose.connect('mongodb://localhost/myManager', { useNewUrlParser: true }).then(
